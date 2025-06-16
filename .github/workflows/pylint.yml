@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: arc-systems
+    runs-on: arc-runners
     strategy:
       matrix:
         python-version: ["3.8", "3.9", "3.10"]
